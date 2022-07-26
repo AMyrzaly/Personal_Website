@@ -49,6 +49,7 @@ img{
     max-width: 100%;
 }
 
+strong { font-weight: var(--fw-bold)}
 
 /* Typography */
 
@@ -68,6 +69,13 @@ h3 { font-size: var(--fs-h3) }
     margin-bottom: .25em;
 }
 
+.section__title--intro {
+    font-weight: var(--fw-reg);
+}
+
+.section__title--intro strong {
+    display: block;
+}
 
 .section__subtitle{
     margin: 0;
